@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="link" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+<header>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Register Page</a>
+            </li>
+            
+          </ul>
+
+        </nav>
+        <br><br><br><br><br><br>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 offset-2">
+                <div class="card">
+                    <div class="card-head">
+                        <h2 style="text-align: center">Register Here</h2>
+                    </div>
+                    <div class="card-body">
+                        <form action="/register" method="POST">
+                            <div class="form-group">
+                                <label for="username">Email address:</label>
+                                <input type="text" class="form-control" placeholder="Enter the Name" name="username" id="username">
+                            </div>
+                            <div>
+                                <span id="nameerror"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" class="form-control" placeholder="Enter password" name="password" id="password">
+                            </div>
+                            <div class="form-group">
+                                <label for="city">city:</label>
+                                <input type="city" class="form-control" placeholder="Enter city" name="city" id="city">
+                            </div>
+                            <div>
+                                <span id="passworderror"></span>
+                            </div>
+                           <a href="C:\Users\Lap\Desktop\Testing\second.html"> <button type="submit" id="button" class="btn btn-block btn-primary">Login</button></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+</body>
+
+</html>
